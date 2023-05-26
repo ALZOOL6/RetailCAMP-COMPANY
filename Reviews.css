@@ -127,3 +127,34 @@ nav a {
       background-color: #fff;
       color: #333;
   }
+
+
+
+
+   /*---------- Social Media--------------*/
+.social-media {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+  background-size: cover;
+}
+
+.facebook {
+  background-image: url('facebook-icon.png'); /* Replace 'facebook-icon.png' with the path to your Facebook icon image */
+}
+
+.twitter {
+  background-image: url('twitter-icon.png'); /* Replace 'twitter-icon.png' with the path to your Twitter icon image */
+}
+
+.instagram {
+  background-image: url('instagram-icon.png'); /* Replace 'instagram-icon.png' with the path to your Instagram icon image */
+}
+
+/* Add more CSS rules for other social media icons if needed */
