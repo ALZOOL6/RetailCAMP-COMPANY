@@ -1,0 +1,287 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retail Camping Company</title>
+    <link rel="stylesheet" href="StyleCampt.css">
+    <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+    <title>My Slideshow</title>
+    <style>
+      /* Styling for the slideshow */
+      .slideshow {
+        max-width: 500px;
+        margin: auto;
+        position: relative;
+      }
+      .slideshow img {
+        max-width: 100%;
+        height: auto;
+      }
+      .slideshow .prev,
+      .slideshow .next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 1.5rem;
+        font-weight: bold;
+        padding: 10px;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.5);
+        cursor: pointer;
+      }
+      .slideshow .prev {
+        left: 0;
+      }
+      .slideshow .next {
+        right: 0;
+      }
+      .slideshow .caption {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        font-size: 1.2rem;
+        padding: 10px;
+        text-align: center;
+      }
+    </style>
+        <style>
+          .card {
+              box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+              max-width: 300px;
+              margin: auto;
+              text-align: center;
+              font-family: arial;
+          }
+  
+          .price {
+            background-color: rgb(99, 248, 191);
+              color: grey;
+              font-size: 22px;
+          }
+  
+          .card button {
+              border: none;
+              outline: 0;
+              padding: 12px;
+              color: white;
+              background-color: #000;
+              text-align: center;
+              cursor: pointer;
+              width: 100%;
+              font-size: 18px;
+          }
+  
+              .card button:hover {
+                  opacity: 0.7;
+              }
+      </style>
+</head>
+
+<body>
+    <header>
+    
+        <h1>Retail Camping Company</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home Page</a></li>
+                <li><a href="CampingE.html">Camping Equipment</a></li>
+                <li><a href="Furniture.html">Furniture</a></li>
+                <li><a href="Reviews.html">Reviews</a></li>
+                <li><a href="Basket.html">Basket</a></li>
+                <li><a href="Offers&Packages.html">Offers and Packages</a></li>
+            </ul>
+        </nav>
+      
+<form>
+  <input type="text" id="search-input" placeholder="Enter your search query">
+  <button type="button" id="search-button" onclick="location.href='Basket.html'">Search</button>
+</form>
+
+  <!-- Search and Button -->
+<style>
+  input[type=text] {
+      width: 130px;
+      box-sizing: border-box;
+      border: 2px solid #ccc;
+      border-radius: 4px;
+      font-size: 16px;
+      background-color: white;
+      background-image: url('searchicon.png');
+      background-position: 10px 10px;
+      background-repeat: no-repeat;
+      padding: 12px 20px 12px 40px;
+      -webkit-transition: width 0.4s ease-in-out;
+      transition: width 0.4s ease-in-out;
+  }
+
+      input[type=text]:focus {
+          width: 100%;
+      }
+</style>
+
+  
+
+    </header>
+    <main>
+        <section id="banner">
+            <h2>Experience Nature with Our Quality Camping Gear</h2>
+            <p><button type="button" class="price" onclick="location.href='CampingE.html'">
+              Camping Equipment
+              </button></p>
+        </section>
+        <h3 style="text-align:center">Special Offers</h3>
+
+        <div class="card">
+            <img src="https://images.pexels.com/photos/1194432/pexels-photo-1194432.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Denim Jeans" style="width:100%">
+            <h1>Cookware</h1>
+            <p class="price">$14.99</p>
+            <p>customers can often find a variety of products at discounted prices, ranging from high-end cookware sets to basic kitchen essentials. Some sales may also include additional perks, such as free shipping or gifts with purchase.</p>
+            <p><button type="button" class="price" onclick="location.href='Basket.html'">
+              Add to Basket
+              </button></p>
+        </div>
+        <h3 style="text-align:center">Special Offers</h3>
+
+        <div class="card">
+            <img src="https://images.pexels.com/photos/8200204/pexels-photo-8200204.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Denim Jeans" style="width:100%">
+            <h1>Cookers</h1>
+            <p class="price">$20.99</p>
+            <p>If you're in the market for a new cooker, it can be a good idea to keep an eye out for cooker sale discounts from your favorite brands or retailers. You may be able to save a significant amount of money on a high-quality cooker, allowing you to upgrade your kitchen without overspending. However, it's important to do your research and compare prices to ensure that you're getting a good deal.</p>
+            <p><button type="button" class="price" onclick="location.href='Basket.html'">
+              Add to Basket
+              </button></p>
+        </div>
+      
+
+            <style type="text/css">
+        #d{
+
+            background: blue;
+        }
+        #r {
+            background: rgba(6, 227, 157, 0.865);
+        }
+       </style>
+
+        </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We are a retail camping company that specializes in high-quality camping gear. Our products are designed to help you enjoy the great outdoors and make lasting memories with friends and family.</p>
+            <P><button type="button" onclick="location.href='https://outdoorgears.ae/'"> Learn More</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Retail Camping Company. All rights reserved.</p>
+    </footer>
+
+      <div class="slider-frame">
+      <div class="slide-images">
+              <div class="img-container">
+                  <img src="https://images.pexels.com/photos/2422265/pexels-photo-2422265.jpeg?auto=compress&cs=tinysrgb&w=600">
+              </div>
+              <div class="img-container">
+                  <img src="https://images.pexels.com/photos/6271725/pexels-photo-6271725.jpeg?auto=compress&cs=tinysrgb&w=600">
+              </div>
+              <div class="img-container">
+                  <img src="https://images.pexels.com/photos/1539225/pexels-photo-1539225.jpeg?auto=compress&cs=tinysrgb&w=600">
+              </div>
+              <div class="img-container">
+                <img src="https://images.pexels.com/photos/1328876/pexels-photo-1328876.jpeg?auto=compress&cs=tinysrgb&w=600">
+            </div>
+            <div class="img-container">
+              <img src="https://images.pexels.com/photos/1239422/pexels-photo-1239422.jpeg?auto=compress&cs=tinysrgb&w=600">
+          </div>
+          <div class="img-container">
+            <img src="https://images.pexels.com/photos/4825743/pexels-photo-4825743.jpeg?auto=compress&cs=tinysrgb&w=600">
+        </div>
+      </div>
+  </div>
+  
+      <script>
+        // JavaScript code for the slideshow
+        var slideIndex = 1;
+        showSlides(slideIndex);
+  
+        function plusSlides(n) {
+          showSlides((slideIndex += n));
+        }
+  
+        function currentSlide(n) {
+          showSlides((slideIndex = n));
+        }
+  
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("slideshow")[0].getElementsByTagName("img");
+          var captions = document.getElementsByClassName("caption")[0];
+  
+          if (n > slides.length) {
+            slideIndex = 1;
+          }
+          if (n < 1) {
+            slideIndex = slides.length;
+          }
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          slides[slideIndex - 1].style.display = "block";
+          captions.innerHTML = slides[slideIndex - 1].alt;
+        }
+  
+        document.getElementsByClassName("prev")[0].addEventListener("click", function () {
+          plusSlides(-1);
+        });
+        document.getElementsByClassName("next")[0].addEventListener("click", function () {
+          plusSlides(1);
+        });
+      </script>
+      
+
+<!-- Display Google Maps -->
+<div id="map"></div>
+<script>
+  function initMap() {
+    // Set up map options
+    var mapOptions = {
+      center: { lat: 37.7749, lng: -122.4194 },
+      zoom: 10
+    };
+    // Create map object
+    var map = new google.maps.Map(document.getElementById('map'), mapOptions);
+  }
+  google.maps.event.addDomListener(window, 'load', initMap);
+</script>
+<!-- Scan for viruses -->
+<div id="virus-scan"></div>
+<script>
+  var scanner = new VirusScanner();
+  scanner.scan('http://example.com', function(result) {
+    document.getElementById('virus-scan').innerHTML = result;
+  });
+</script>
+<!-- Embed Java applet -->
+<applet code="MyApplet.class" archive="MyApplet.jar" width="300" height="200">
+  <param name="param1" value="value1">
+  <param name="param2" value="value2">
+</applet>
+
+<div class="social-media">
+  <p>Contact US on Social Medias, Our Number 0586862939 On Whatsapp</p>
+<a href="https://www.facebook.com" target="_blank" class="social-icon facebook"><img src="https://th.bing.com/th/id/OIP.yteKsVbAmY0xdcqlC55QpgHaHa?w=188&h=188&c=7&r=0&o=5&dpr=1.5&pid=1.7"  alt="facebook" style="width: 30px ;"  style="height: 25px;" ></a>
+<a href="https://web.whatsapp.com/" target="_blank" class="social-icon Whatsapp"><img src="https://th.bing.com/th/id/OIP.aE2IaiYDMaKMdmOpSwr5bgHaHa?w=201&amp;h=201&amp;c=7&amp;r=0&amp;o=5&amp;dpr=1.5&amp;pid=1.7" alt="Whatsapp"  style="width: 30px ;" style="height: 25px;">
+
+</a>
+<a href="https://www.instagram.com" target="_blank" class="social-icon instagram"> <img src="https://th.bing.com/th/id/OIP.mrCKDsrEoppa3OkdtV6eDQHaHa?w=181&h=181&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Instagram" style="width: 30px ;" style="height: 25px;"> </a>
+<a href="https://www.bing.com/ck/a?!&&p=5a90ca0fc9091c15JmltdHM9MTY4MTc3NjAwMCZpZ3VpZD0xNzYxMTE1ZS0xMDAzLTYwNzEtMGRjMi0wMDNhMTFkODYxYWImaW5zaWQ9NTM3Mw&ptn=3&hsh=3&fclid=1761115e-1003-6071-0dc2-003a11d861ab&psq=gmail&u=a1aHR0cHM6Ly9tYWlsLmdvb2dsZS5jb20vbWFpbC91LzAvP2hsPWFy&ntb=1"  target="_blank" class="social-icon Email Address"> <img src="https://th.bing.com/th/id/OIP.g0MZbDCoqt8mo5LNS0YDeQHaHa?w=179&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Email Address" style="width: 30px ;" style="height: 25px;"> </a>
+<a href="https://www.bing.com/ck/a?!&&p=0607dbac766899e7JmltdHM9MTY4MDk5ODQwMCZpZ3VpZD0xNzYxMTE1ZS0xMDAzLTYwNzEtMGRjMi0wMDNhMTFkODYxYWImaW5zaWQ9NTE0NQ&ptn=3&hsh=3&fclid=1761115e-1003-6071-0dc2-003a11d861ab&psq=linkedin&u=a1aHR0cHM6Ly93d3cubGlua2VkaW4uY29tLw&ntb=1" target="_blank" class="social-icon LinkedIn"> <img src="https://th.bing.com/th/id/OIP.2GoCzqQxSthKb4Vi2IjaugHaHa?w=197&h=197&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="LinkedIn" style="width: 30px ;" style="height: 25px;"> </a>
+<a href="https://twitter.com/i/flow/login" target="_blank" class="social-icon twitter"> <img src="data:image/png;base64,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" alt="twitter" style="width: 30px ;" style="height: 25px;"> </a>
+<!-- Add more social media links and icons as needed -->
+
+
+
+</body>
+</html>

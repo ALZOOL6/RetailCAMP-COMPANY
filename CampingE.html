@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Camping Equipment</title>
+	<link rel="stylesheet" type="text/css" href="CE.css">
+</head>
+<body>
+	<header>
+		<h1>Camping Equipment</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home Page</a></li>
+                <li><a href="CampingE.html">Camping Equipment</a></li>
+                <li><a href="Furniture.html">Furniture</a></li>
+                <li><a href="Reviews.html">Reviews</a></li>
+                <li><a href="Basket.html">Basket</a></li>
+                <li><a href="Offers&Packages.html">Offers and Packages</a></li>
+            </ul>
+        </nav>
+		<form>
+			<input type="text" id="search-input" placeholder="Enter your search query">
+			<button type="button" id="search-button" onclick="location.href='Basket.html'">Search</button>
+		  </form>
+		  
+		  <!-- Search and Button -->
+		  <style>
+			input[type=text] {
+				width: 130px;
+				box-sizing: border-box;
+				border: 2px solid #ccc;
+				border-radius: 4px;
+				font-size: 16px;
+				background-color: white;
+				background-image: url('searchicon.png');
+				background-position: 10px 10px;
+				background-repeat: no-repeat;
+				padding: 12px 20px 12px 40px;
+				-webkit-transition: width 0.4s ease-in-out;
+				transition: width 0.4s ease-in-out;
+			}
+		  
+				input[type=text]:focus {
+					width: 100%;
+				}
+		  </style>
+	</header>
+	<main>
+		<section class="featured">
+			<h2>Featured Item</h2>
+			<div class="item">
+				<img src="https://images.pexels.com/photos/618848/pexels-photo-618848.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Tent">
+				<h3>Tent</h3>
+				<p>$100</p>
+				<button type="button" class="price" onclick="location.href='Basket.html'"> Add To Basket
+				</button>
+			</div>
+		</section>
+		<section class="items">
+			<h2>All Items</h2>
+			<div class="item">
+				<img src="https://media.istockphoto.com/id/175600637/photo/the-interior-of-a-tent-with-multiple-sleeping-bags.jpg?s=612x612&w=is&k=20&c=qfsCNw-afyBSqvewyduLBWFOGMuA_JUJvcvIlWqMm-M=" alt="Sleeping Bag">
+				<h3>Sleeping Bag</h3>
+				<p>$50</p>
+				<button type="button" class="price" onclick="location.href='Basket.html'"> Add To Basket
+				</button>
+			</div>
+			<div class="item">
+				<img src="https://media.istockphoto.com/id/1404359929/photo/small-camping-gas-stove-and-small-pot.jpg?b=1&s=170667a&w=0&k=20&c=0Idfbgw4GA-_WJ32zTtYX89k6-rVFBv2J_xOHpfP9Dw=" alt="Camp Stove">
+				<h3>Camp Stove</h3>
+				<p>80</p>
+				<button type="button" class="price" onclick="location.href='Basket.html'"> Add To Basket
+					</button>
+			</div>
+			<div class="item">
+				<img src="https://images.pexels.com/photos/1368382/pexels-photo-1368382.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Cooler">
+				<h3>Cooler</h3>
+				<p>$65.99</p>
+				<button type="button" class="price" onclick="location.href='Basket.html'"> Add To Basket
+				</button>
+				
+			</div>
+		</section>
+	
+	
+</body>
+</html>
+

@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Basket</title>
+    <link rel="stylesheet" href="Basket.css">
+  </head>
+  <body>
+    <header>
+    
+      <h1>Basket</h1>
+      <nav>
+          <ul>
+              <li><a href="index.html">Home Page</a></li>
+              <li><a href="CampingE.html">Camping Equipment</a></li>
+              <li><a href="Furniture.html">Furniture</a></li>
+              <li><a href="Reviews.html">Reviews</a></li>
+              <li><a href="Basket.html">Basket</a></li>
+              <li><a href="Offers&Packages.html">Offers and Packages</a></li>
+          </ul>
+      </nav>
+
+      <form>
+        <input type="text" id="search-input" placeholder="Enter your search query">
+        <button type="button" id="search-button" onclick="location.href='Basket.html'">Search</button>
+      </form>
+
+        <!-- Search and Button -->
+      <style>
+        input[type=text] {
+            width: 130px;
+            box-sizing: border-box;
+            border: 2px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+            background-color: white;
+            background-image: url('searchicon.png');
+            background-position: 10px 10px;
+            background-repeat: no-repeat;
+            padding: 12px 20px 12px 40px;
+            -webkit-transition: width 0.4s ease-in-out;
+            transition: width 0.4s ease-in-out;
+        }
+      
+            input[type=text]:focus {
+                width: 100%;
+            }
+      </style>
+    </header>
+    <br>
+    <br>
+    
+  
+        <h2>Camping Equipment Store</h2>
+        <div class="container">
+          <div class="item">
+            <img src="https://images.unsplash.com/photo-1624923686627-514dd5e57bae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dGVudHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60" alt="Tent">
+            <h2>Tent</h2>
+            <p>$100</p>
+            <button type="button" class="add-to-basket" data-name="Tent" data-price="100" onclick="location.href='TentPayment.html'" >Buy</button>
+          </div>
+          <div class="item">
+            <img src="https://media.istockphoto.com/id/175600637/photo/the-interior-of-a-tent-with-multiple-sleeping-bags.jpg?s=612x612&w=is&k=20&c=qfsCNw-afyBSqvewyduLBWFOGMuA_JUJvcvIlWqMm-M=" alt="Sleeping Bag">
+            <h2>Sleeping Bag</h2>
+            <p>$50</p>
+            <button type="button" class="add-to-basket" data-name="Sleeping Bag" data-price="50"  onclick="location.href='SBag.html'">Buy </button>
+          </div>
+          <div class="item">
+            <img src="https://media.istockphoto.com/id/1404359929/photo/small-camping-gas-stove-and-small-pot.jpg?b=1&s=170667a&w=0&k=20&c=0Idfbgw4GA-_WJ32zTtYX89k6-rVFBv2J_xOHpfP9Dw=" alt="Camping Stove">
+            <h2>Camping Stove</h2>
+            <p>$80</p>
+            <button type="button" class="add-to-basket" data-name="Camping Stove" data-price="80" onclick="location.href='CampingStovePayment.html'">Buy</button>
+          </div>
+        </div>
+        <div class="item">
+          <img src="https://images.pexels.com/photos/1368382/pexels-photo-1368382.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Sleeping Bag">
+          <h2>Cooler</h2>
+          <p>$65.99</p>
+          <button type="button" class="add-to-basket" data-name="Sleeping Bag" data-price="50"  onclick="location.href='Cooler.html'">Buy </button>
+        </div>
+        <div class="item">
+          <img src="https://u7q2x7c9.stackpathcdn.com/photos/17/21/293644_26597_L.jpg" alt="Tent">
+          <h2>Folding Table</h2>
+          <p>$37.98</p>
+          <button type="button" class="add-to-basket" data-name="Tent" data-price="100" onclick="location.href='FoldingTable.html'" >Buy</button>
+        </div>
+        <div class="item">
+          <img src="https://pyxis.nymag.com/v1/imgs/d7d/989/a8fd2dcf9c351831eb6c989b86356c8d80.2x.rsquare.w600.jpg" alt="Tent">
+          <h2>Camping Cot</h2>
+          <p>$142.75</p>
+          <button type="button" class="add-to-basket" data-name="Tent" data-price="100" onclick="location.href='CampingCot.html'" >Buy</button>
+        </div>
+        <div class="item">
+          <img src="https://cdn.sharafdg.com/cdn-cgi/image/width=600,height=600,fit=pad/assets/5/1/3/a/513a7d5fc8c3f95ffa37f87cdc8215a13eb746ae_836c3bca03cc4585a83db6b9036cbadb.jpg" alt="Tent">
+          <h2>Camp Chair</h2>
+          <p>$60</p>
+          <button type="button" class="add-to-basket" data-name="Tent" data-price="100" onclick="location.href='CampChair.html'" >Buy</button>
+        </div>
+        <div class="basket">
+
+          <section>
+            <form class="price" action="CampingE.html" method="post"></form>
+            <h2>Weekend Warrior Package</h2>
+            <p>Includes:</p>
+            <ul>
+              <li>Tent</li>
+              <li>Sleeping Bag</li>
+              <li>Camp Stove</li>
+              <li>Cooler</li>
+              <li>Folding Table</li>
+              <li>Camping Cot</li>
+              <li>Camp Chair</li>
+            </ul>
+            <p class="price">$536.72</p>
+            <button type="button" class="price" onclick="location.href='WeekendWarriorPackage.html'">
+              Buy
+              </button>
+          </section>
+
+          <section>
+			
+            <h2>Family Adventure Package</h2>
+            <p>Includes:</p>
+            <ul>
+              <li>Two Tents</li>
+              <li>Four Sleeping Bags</li>
+              <li>Four Camp Stove</li>
+              <li>Three Cooler</li>
+              <li>Three Folding Table</li>
+              <li>Five Camping Cot</li>
+              <li>Eight Camp Chair</li>
+            </ul>
+            <p class="price">$2,225.66</p>
+            <button type="button" class="price" onclick="location.href='FamilyPackagePayment.html'">
+              Buy
+              </button>
+            
+
+
+
+
+
+                  <br>
+            </section>
+            <h3 style="text-align:center">Special Offers</h3>
+    
+            <div class="card">
+                <img src="https://images.pexels.com/photos/1194432/pexels-photo-1194432.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Denim Jeans" style="width:100%">
+                <h1>Cookware</h1>
+                <p class="price">$14.99</p>
+                <p>customers can often find a variety of products at discounted prices, ranging from high-end cookware sets to basic kitchen essentials. Some sales may also include additional perks, such as free shipping or gifts with purchase.</p>
+                <p><button type="button" class="price" onclick="location.href='Cookware.html'">
+                  Buy
+                  </button></p>
+            </div>
+            <h3 style="text-align:center">Special Offers</h3>
+    
+            <div class="card">
+                <img src="https://images.pexels.com/photos/8200204/pexels-photo-8200204.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Denim Jeans" style="width:100%">
+                <h1>Cookers</h1>
+                <p class="price">$20.99</p>
+                <p>If you're in the market for a new cooker, it can be a good idea to keep an eye out for cooker sale discounts from your favorite brands or retailers. You may be able to save a significant amount of money on a high-quality cooker, allowing you to upgrade your kitchen without overspending. However, it's important to do your research and compare prices to ensure that you're getting a good deal.</p>
+                <p><button type="button" class="price" onclick="location.href='Cookers.html'">
+                  Buy
+                  </button></p>
+            </div>
+            <style>
+               /* Special Offers */
+              .card {
+                  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+                  max-width: 300px;
+                  margin: auto;
+                  text-align: center;
+                  font-family: arial;
+              }
+      
+              .price {
+                background-color: rgb(99, 248, 191);
+                  color: grey;
+                  font-size: 22px;
+              }
+      
+              .card button {
+                  border: none;
+                  outline: 0;
+                  padding: 12px;
+                  color: white;
+                  background-color: #00ffc3;
+                  text-align: center;
+                  cursor: pointer;
+                  width: 100%;
+                  font-size: 18px;
+              }
+      
+                  .card button:hover {
+                      opacity: 0.7;
+                  }
+          </style>    
+          </section>
+          <h2>Basket</h2>
+          <ul class="items">
+          </ul>
+          <p>Total: $<span class="total-price">3,335.08</span></p>
+          <button type="button" class="checkout" onclick="location.href='All Staffs and Equipment.html'"> </button>Checkout</button>
+        </div>
+        <script src="script.js"></script>
+
+
+	<!-- Social Medias -->
+	<div class="social-media">
+		<p>Contact US on Social Medias, Our Number 0586862939 On Whatsapp</p>
+	<a href="https://www.facebook.com" target="_blank" class="social-icon facebook"><img src="https://th.bing.com/th/id/OIP.yteKsVbAmY0xdcqlC55QpgHaHa?w=188&h=188&c=7&r=0&o=5&dpr=1.5&pid=1.7"  alt="facebook" style="width: 30px ;"  style="height: 25px;" ></a>
+	<a href="https://web.whatsapp.com/" target="_blank" class="social-icon Whatsapp"><img src="https://th.bing.com/th/id/OIP.aE2IaiYDMaKMdmOpSwr5bgHaHa?w=201&amp;h=201&amp;c=7&amp;r=0&amp;o=5&amp;dpr=1.5&amp;pid=1.7" alt="Whatsapp"  style="width: 30px ;" style="height: 25px;">
+	
+	</a>
+	<a href="https://www.instagram.com" target="_blank" class="social-icon instagram"> <img src="https://th.bing.com/th/id/OIP.mrCKDsrEoppa3OkdtV6eDQHaHa?w=181&h=181&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Instagram" style="width: 30px ;" style="height: 25px;"> </a>
+	<a href="https://www.bing.com/ck/a?!&&p=5a90ca0fc9091c15JmltdHM9MTY4MTc3NjAwMCZpZ3VpZD0xNzYxMTE1ZS0xMDAzLTYwNzEtMGRjMi0wMDNhMTFkODYxYWImaW5zaWQ9NTM3Mw&ptn=3&hsh=3&fclid=1761115e-1003-6071-0dc2-003a11d861ab&psq=gmail&u=a1aHR0cHM6Ly9tYWlsLmdvb2dsZS5jb20vbWFpbC91LzAvP2hsPWFy&ntb=1"  target="_blank" class="social-icon Email Address"> <img src="https://th.bing.com/th/id/OIP.g0MZbDCoqt8mo5LNS0YDeQHaHa?w=179&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Email Address" style="width: 30px ;" style="height: 25px;"> </a>
+	<a href="https://www.bing.com/ck/a?!&&p=0607dbac766899e7JmltdHM9MTY4MDk5ODQwMCZpZ3VpZD0xNzYxMTE1ZS0xMDAzLTYwNzEtMGRjMi0wMDNhMTFkODYxYWImaW5zaWQ9NTE0NQ&ptn=3&hsh=3&fclid=1761115e-1003-6071-0dc2-003a11d861ab&psq=linkedin&u=a1aHR0cHM6Ly93d3cubGlua2VkaW4uY29tLw&ntb=1" target="_blank" class="social-icon LinkedIn"> <img src="https://th.bing.com/th/id/OIP.2GoCzqQxSthKb4Vi2IjaugHaHa?w=197&h=197&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="LinkedIn" style="width: 30px ;" style="height: 25px;"> </a>
+	<a href="https://twitter.com/i/flow/login" target="_blank" class="social-icon twitter"> <img src="data:image/png;base64,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" alt="twitter" style="width: 30px ;" style="height: 25px;"> </a>
+	<!-- Add more social media links and icons as needed -->
+
+
+   <!-- Links of others webs -->
+        <a href="Payment.html"></a>
+        <a href="FamilyPackagePayment.html"></a>
+        <a href="WeekendWarriorPackage.html"></a>
+        <a href="CampingStovePayment.html"></a>
+        <a href="SBag.html"></a>
+        <a href="TentPayment.html"></a>
+        <a href="Cooler.html"></a>
+        <a href="FoldingTable.html"></a>
+        <a href="CampingCot.html"></a>
+        <a href="CampChair.html"></a>
+        <a href="All Staffs and Equipment.html"></a>
+        <a href="Cookware.html"></a>
+        <a href="Cookers.html"></a>
+  </body>
+
+</html>
+
+
+
+

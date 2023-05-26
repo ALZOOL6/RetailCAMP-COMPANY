@@ -1,0 +1,170 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Header Styles */
+header {
+    background-color: #333333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+    nav a:hover {
+        background-color: #fff;
+        color: #333;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+    .slider-frame{
+        overflow: hidden;
+        height: 800px;
+        width: 1200px;
+        margin-left: 360px;
+        margin-top: 20px;
+    }
+   
+    /*---------- SLIDE ANIMATION --------------*/
+   
+   
+    @keyframes slide_animation{
+        0% {left:0px;}
+        10% {left:0px;}
+        20% {left:1200px;}
+        30% {left:1200px;}
+        40% {left: 2400px;}
+        50% {left: 2400px;}
+        60% {left: 1200px;}
+        70% {left: 1200px;}
+        80% {left: 0px;}
+        90% {left: 0px;}
+        100% {left:0px;}
+    }
+   
+    @-webkit-keyframes slide_animation{
+        0% {left:0px;}
+        10% {left:0px;}
+        20% {left:1200px;}
+        30% {left:1200px;}
+        40% {left: 2400px;}
+        50% {left: 2400px;}
+        60% {left: 1200px;}
+        70% {left: 1200px;}
+        80% {left: 0px;}
+        90% {left: 0px;}
+        100% {left:0px;}
+    }
+   
+    .slide-images{
+        width: 3600px;
+        height: 800px;
+        margin: 0 0 0 -2400px;
+        position: relative;
+        -webkit-animation-name: slide_animation;
+        animation-name: slide_animation;
+        -webkit-animation-duration: 33s;
+        animation-duration: 33s;
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+        -webkit-animation-direction: alternate;
+        animation-direction: alternate;
+        -webkit-animation-play-state: running;
+        animation-play-state: running;
+    }
+   
+    .img-container{
+        height: 800px;
+        width: 1200px;
+        position: relative;
+        float: left;
+    }
+   
+
+ /*---------- Social Media--------------*/
+.social-media {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+  background-size: cover;
+}
+
+.facebook {
+  background-image: url('facebook-icon.png'); /* Replace 'facebook-icon.png' with the path to your Facebook icon image */
+}
+
+.twitter {
+  background-image: url('twitter-icon.png'); /* Replace 'twitter-icon.png' with the path to your Twitter icon image */
+}
+
+.instagram {
+  background-image: url('instagram-icon.png'); /* Replace 'instagram-icon.png' with the path to your Instagram icon image */
+}
+
+/* Add more CSS rules for other social media icons if needed */
